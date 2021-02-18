@@ -2,17 +2,17 @@
 
 1.  Set up your user name, password (Username and passwords set are strictly based on user preference)
 
-`NEWUSER=demo
+`NEWUSER=demo`
 
-USERPASSWD=n15pgj6w`
+`USERPASSWD=n15pgj6w`
 
 2.  Some logging
 
-`BLUE=`tput setaf 4` 
+BLUE=`tput setaf 4` 
 
-`RST=`tput sgr0`
+RST=`tput sgr0`
 
-`function info {
+function info {
 	echo -e "[${BLUE}info${RST}] $@"}`
   
 3. Allow SSH password authentication
